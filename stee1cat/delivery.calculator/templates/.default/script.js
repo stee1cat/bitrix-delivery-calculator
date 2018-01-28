@@ -128,7 +128,10 @@ function DeliveryCalculator(options) {
 	var deliveryCalculatorForm = $(options.form);
 	var deliveryCalculatorResult = $(options.result);
 	var destinationInput = $(options.destinationInput);
-	var departure = options.from;
+	var departure = {
+		type: 'wayPoint',
+		point: options.from
+	};
 	var yandexMapApi = new YandexMapApi();
 
 	yandexMapApi.get()
