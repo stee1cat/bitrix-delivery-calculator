@@ -1,13 +1,13 @@
 <div class="calc_block">
-	<div class="calc_block_title">Уточнить стоимость доставки</div>
+	<div class="calc_block_title">РЈС‚РѕС‡РЅРёС‚СЊ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё</div>
 	<div class="calc_subblock">
 		<form id="delivery_form">
 			<div class="col-sm-8">
 				<input id="delivery_destination" name="delivery_destination"
-					   type="text" placeholder="Введите город доставки">
+					   type="text" placeholder="Р’РІРµРґРёС‚Рµ РіРѕСЂРѕРґ РґРѕСЃС‚Р°РІРєРё">
 			</div>
 			<div class="col-sm-4">
-				<input type="submit" value="Рассчитать стоимость"
+				<input type="submit" value="Р Р°СЃСЃС‡РёС‚Р°С‚СЊ СЃС‚РѕРёРјРѕСЃС‚СЊ"
 					   class="btn btn-default btn-lg">
 			</div>
 			<div class="clearfix"></div>

@@ -107,22 +107,22 @@ function DeliveryCalculator(options) {
 		var freeDistance = options.freeDistance || 0;
 		var cost = options.cost || 0;
 		if (distance <= freeDistance) {
-			return 'Бесплатно';
+			return 'Р‘РµСЃРїР»Р°С‚РЅРѕ';
 		} else {
 			var value = Math.round((distance - freeDistance) * cost);
 			var price = isNaN(value) ? '' : value.toString()
-				.replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' руб.';
+				.replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' СЂСѓР±.';
 
 			return price;
 		}
 	}
 
 	function successMessage(container, destination, price) {
-		container.html("<div class='delivery_calc_title'>Стоимость доставки в " + destination + " составит " + price + "</div>");
+		container.html("<div class='delivery_calc_title'>РЎС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РІ " + destination + " СЃРѕСЃС‚Р°РІРёС‚ " + price + "</div>");
 	}
 
 	function errorMessage(container) {
-		container.html("<div class='delivery_error'>Ошибка расчёта стоимости доставки. Введите город!</div>");
+		container.html("<div class='delivery_error'>РћС€РёР±РєР° СЂР°СЃС‡С‘С‚Р° СЃС‚РѕРёРјРѕСЃС‚Рё РґРѕСЃС‚Р°РІРєРё. Р’РІРµРґРёС‚Рµ РіРѕСЂРѕРґ!</div>");
 	}
 
 	var deliveryCalculatorForm = $(options.form);

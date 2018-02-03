@@ -1,5 +1,5 @@
 <?php
 
-$MESS['SCDC_COMPONENT_NAME'] = 'Êàëüêóëÿòîð äîñòàâêè';
-$MESS['SCDC_COMPONENT_DESCRIPTION'] = 'Êàëüêóëÿòîð äîñòàâêè, èñïîëüçóåò Yandex API';
+$MESS['SCDC_COMPONENT_NAME'] = 'ÐšÐ°Ð»ÑŒÐºÑƒÐ»ÑÑ‚Ð¾Ñ€ Ð´Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸';
+$MESS['SCDC_COMPONENT_DESCRIPTION'] = 'ÐšÐ°Ð»ÑŒÐºÑƒÐ»ÑÑ‚Ð¾Ñ€ Ð´Ð¾ÑÑ‚Ð°Ð²ÐºÐ¸, Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚ Yandex API';
 $MESS['SCDC_COMPONENT'] = 'stee1cat';
