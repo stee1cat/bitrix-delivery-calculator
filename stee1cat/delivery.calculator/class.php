@@ -5,8 +5,8 @@
 
 class Stee1CatDeliveryCalculator extends CBitrixComponent {
 
-	public function executeComponent() {
-		$this->includeComponentTemplate();
-	}
+    public function executeComponent() {
+        $this->includeComponentTemplate();
+    }
 
 }
